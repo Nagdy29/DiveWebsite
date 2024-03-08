@@ -37,7 +37,7 @@ const Courses = () => {
             <h2> : الكورسات المتاحه</h2>
           </div>
           <div className="pt-24 pb-32 flex  gap-4 justify-center items-center flex-wrap">
-            <div class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
+            <div class="relative flex w-96 my-7 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
               <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
                 <img src={cor} alt="" />
               </div>
@@ -51,7 +51,7 @@ const Courses = () => {
                 </p>
               </div>
             </div>
-            <div class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
+            <div class="relative flex w-96 my-7 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
               <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
                 <img src={cor} alt="" />
               </div>
@@ -65,7 +65,7 @@ const Courses = () => {
                 </p>
               </div>
             </div>
-            <div class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
+            <div class="relative flex w-96 my-7 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md ">
               <div class="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
                 <img src={cor} alt="" />
               </div>

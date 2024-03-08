@@ -114,7 +114,7 @@ const Home = () => {
           >
             <div className=" mt-28 flex flex-col text-white max-w-96 mx-44">
               <h2 className="font-bold my-3 text-[20px]">معلومات عنا : </h2>
-              <p className="font-serif text-[25px] w-[500px]  ">
+              <p className="font-serif text-[25px] md:w-[500px] w-[300px]   ">
                 نساعدك في تحليل البيانات وتحويلها الي تقارير مفيده ونوفر لك
                 مجموعه من الكورسات المميزه ف مجال تحليل البيانات ونحن نقدم
                 مجموعة كبيرة من حلولنا الرقمية الجاهزة والمخصصة في العديد من
@@ -144,11 +144,11 @@ const Home = () => {
         <div className="  service bg-[#0a0f36]">
           <div className=" flex items-center justify-center flex-col   text-white">
             <h2 className="mt-24 text-[25px]">الخدمات</h2>
-            <p className="my-4 text-[40px]">استكشف خدمات البيانات لدينا</p>
+            <p className="my-4 text-[40px]  ">استكشف خدمات البيانات لدينا</p>
           </div>
           <div className="flex justify-center  flex-wrap flex-row">
             <div className=" flex flex-row justify-center  flex-wrap">
-              <div class="service-card mx-3 my-4 w-[400px] flex justify-center items-center  h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
+              <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center  h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
                 <div>
                   <AiFillDatabase size={40} />
                 </div>
@@ -161,7 +161,7 @@ const Home = () => {
                   لتسهيل اتخاذ القرارات المستنيرة.
                 </p>{" "}
               </div>
-              <div class="service-card mx-3 my-4 w-[400px]  flex justify-center items-center  h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
+              <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center  h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
                 <div>
                   <AiFillDatabase size={40} />
                 </div>
@@ -174,7 +174,7 @@ const Home = () => {
                   التحليلية وحلول الخدمة الذاتية.
                 </p>{" "}
               </div>
-              <div class="service-card mx-3 my-4 w-[400px]  flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col items-star gap-3 transition-all duration-300 group hover:bg-[#202127]">
+              <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col items-star gap-3 transition-all duration-300 group hover:bg-[#202127]">
                 <div>
                   <AiFillDatabase size={40} />
                 </div>
@@ -187,7 +187,7 @@ const Home = () => {
                   وتحليلها دون الحاجة إلى معرفة واسعة بالبرمجة.
                 </p>{" "}
               </div>
-              <div class="service-card mx-3 my-4 w-[400px]  flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
+              <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
                 <div>
                   <AiFillDatabase size={40} />
                 </div>
@@ -198,7 +198,7 @@ const Home = () => {
                   ضمان الامتثال لمتطلبات NDMO من خلال حلولنا القوية.{" "}
                 </p>{" "}
               </div>
-              <div class="service-card mx-3 my-4 w-[400px]  flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
+              <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
                 <div>
                   <AiFillDatabase size={40} />
                 </div>
@@ -211,7 +211,7 @@ const Home = () => {
                   وصناعة.
                 </p>{" "}
               </div>
-              <div class="service-card mx-3 my-4 w-[400px]  flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
+              <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
                 <div>
                   <AiFillDatabase size={40} />
                 </div>
@@ -230,7 +230,7 @@ const Home = () => {
             </div>
             <div className="card-chose flex mt-9 pb-5 justify-center flex-wrap gap-8 lg:gap-1">
               <div className="flex justify-center items-center flex-wrap gap-4 mx-8">
-                <div class="group flex flex-col justify-start items-start gap-2 w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
+                <div class="group flex flex-col justify-start items-start gap-2 w-72 md:w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
                   <div class="">
                     <div className="flex justify-center items-center gap-3 my-3">
                       {" "}
@@ -248,7 +248,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="flex justify-center items-center flex-wrap gap-4 mx-8">
-                <div class="group flex flex-col justify-start items-start gap-2 w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
+                <div class="group flex flex-col justify-start items-start gap-2 w-72 md:w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
                   <div class="">
                     <div className="flex justify-center items-center gap-3 my-3">
                       {" "}
@@ -266,7 +266,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="flex justify-center items-center flex-wrap gap-4 mx-8">
-                <div class="group flex flex-col justify-start items-start gap-2 w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
+                <div class="group flex flex-col justify-start items-start gap-2 w-72 md:w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300">
                   <div class="">
                     <div className="flex justify-center items-center gap-3 my-3">
                       {" "}
@@ -310,8 +310,8 @@ const Home = () => {
               className="w-full"
             >
               <div className="">
-                <div className="mx-36 my-7 ">
-                  <div class="relative  card flex w-96 flex-col rounded-full bg-[##2C55AC] bg-clip-border text-gray-700 shadow-lg">
+                <div className=" my-7 flex justify-center ">
+                  <div class="relative  justify-center card flex w-[300px] flex-col  bg-clip-border text-gray-700 shadow-lg">
                     <div>
                       <img
                         src={pr1}
@@ -345,27 +345,29 @@ const Home = () => {
             ;
           </div>
         </div>
+        <div className=" bg-[#070B28] flex justify-center  py-5 ">
+          <div className="flex justify-center items-center flex-col">
+            <h2 className="text-white text-[40px]">إحصائيات الشركة</h2>
+            <p className="text-white text-[20px]">اعرف المزيد عنا بالأرقام</p>
+          </div>
+        </div>
         <div className="se-count bg-[#070B28] flex justify-center ">
-          <div className="flex justify-between  mx-20 center-count w-full mb-7 rounded-full ">
-            <div className="flex justify-center items-center flex-col">
-              <h2 className="text-white text-[40px]">إحصائيات الشركة</h2>
-              <p className="text-white text-[20px]">اعرف المزيد عنا بالأرقام</p>
-            </div>
-            <div className="flex flex-col items-center text-white ">
+          <div className="flex justify-between  flex-col md:flex-row  mx-20 center-count w-full mb-7 rounded-full ">
+            <div className="flex flex-col items-center my-3 text-white ">
               <h3>
                 <CountUp end={30} className="text-[45px]" />{" "}
                 <span className="text-[35px]">+</span>
               </h3>
               <p className="text-[25px]">المشاريع المنجزة</p>
             </div>
-            <div className="flex flex-col items-center text-white ">
+            <div className="flex flex-col items-center my-3 text-white ">
               <h3>
                 <CountUp end={20} className="text-[45px]" />{" "}
                 <span className="text-[35px]">+</span>
               </h3>
               <p className="text-[25px]"> Clients</p>
             </div>
-            <div className="flex flex-col items-center text-white ">
+            <div className="flex flex-col items-center my-3 text-white ">
               <h3>
                 <CountUp end={100} className="text-[45px]" />{" "}
                 <span className="text-[35px]">%</span>

@@ -37,11 +37,23 @@ const NavBar = () => {
               >
                 <li>
                   <div className=" flex gap-6 links-nav flex-col">
-                    <Link className="text-[18px] links ">عن دف</Link>
+                    <Link className="text-[18px] links " to="/about">
+                      عن دف
+                    </Link>
 
-                    <Link className="text-[18px] links ">الكورسات</Link>
+                    <Link to="/courses" className="text-[18px] links ">
+                      الكورسات
+                    </Link>
 
-                    <Link className="text-[18px] links ">المشاريع</Link>
+                    <Link to="/project" className="text-[18px] links  ">
+                      المشاريع
+                    </Link>
+                    <Link to="/contact" className="text-[18px] links ">
+                      اتصل بنا
+                    </Link>
+                    <Link to="/skils" className="text-[18px] links ">
+                      مهارتنا
+                    </Link>
                   </div>
                 </li>
               </ul>

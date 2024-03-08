@@ -103,6 +103,11 @@ body {
   -webkit-animation: 5s bounce linear infinite;
   animation: 5s bounce linear infinite;
 }
+.img-contact {
+  -webkit-animation: 5s bounce linear infinite;
+  animation: 5s bounce linear infinite;
+}
+
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 .service ::after {
   content: "";

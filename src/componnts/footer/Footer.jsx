@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div>
         <footer
-          className="footer p-10 bg-[#070B28] text-base-content text-white "
+          className="footer p-10 bg-[#070B28]  text-white "
           style={{ direction: "rtl" }}
         >
           <aside>
