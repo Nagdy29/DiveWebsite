@@ -1,26 +1,46 @@
 import React from "react";
 import log from "../../images/ogo.jfif";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
       <div>
-        <footer className="footer p-10 bg-[#070B28] text-base-content text-white ">
+        <footer
+          className="footer p-10 bg-[#070B28] text-base-content text-white "
+          style={{ direction: "rtl" }}
+        >
           <aside>
-            <img src={log} alt="" className="w-44" />
+            <Link to="/">
+              {" "}
+              <img src={log} alt="" className="w-44" />
+            </Link>
           </aside>
           <nav className="text-yellow-50">
-            <h6 className="footer-title">Services</h6>
-            <a className="link link-hover">Branding</a>
-            <a className="link link-hover">Design</a>
-            <a className="link link-hover">Marketing</a>
-            <a className="link link-hover">Advertisement</a>
+            <h6 className="footer-title">خدمات</h6>
+            <a className="link link-hover">تحليل بيانات</a>
+            <a className="link link-hover">التعلم الالي</a>
+            <a className="link link-hover">بايثون</a>
+            <a className="link link-hover">خادم مايكروسوفت SQL</a>
           </nav>
           <nav className="text-yellow-50">
-            <h6 className="footer-title">Company</h6>
-            <a className="link link-hover">About us</a>
-            <a className="link link-hover">Contact</a>
-            <a className="link link-hover">Jobs</a>
-            <a className="link link-hover">Press kit</a>
+            <h6 className="footer-title">الشركه</h6>
+            <Link className="text-[18px] links " to="/about">
+              عن دف
+            </Link>
+
+            <Link to="/courses" className="text-[18px] links ">
+              الكورسات
+            </Link>
+
+            <Link to="/project" className="text-[18px] links  ">
+              المشاريع
+            </Link>
+            <Link to="/contact" className="text-[18px] links ">
+              اتصل بنا
+            </Link>
+            <Link to="/skils" className="text-[18px] links ">
+              مهارتنا
+            </Link>
           </nav>
         </footer>
       </div>
