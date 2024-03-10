@@ -34,7 +34,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex justify-center my-3">
-          <h2 className="text-white font-bold text-[40px]">: عن دف </h2>
+          <h2 className="text-white font-bold text-[40px]">: عن دايف </h2>
         </div>
         <div>
           <div className="my-7 justify-center  lg:justify-between flex flex-col lg:flex-row gap-11  ">
