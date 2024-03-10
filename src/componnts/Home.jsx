@@ -56,9 +56,9 @@ const Home = () => {
           </div>
           <div
             style={{ direction: "rtl" }}
-            className="mt-7  flex-col flex xl:flex-row items-center justify-center xl:justify-between  gap-10 "
+            className="mt-7  flex-col flex xl:flex-row items-center justify-center md:justify-between  gap-10 "
           >
-            <div className=" mt-8 flex flex-col text-white max-w-96 mx-44">
+            <div className=" mt-8 flex flex-col text-white max-w-96 mx-20  ">
               <h2 className="font-bold my-3 text-[45px]">
                 علوم البيانات والتحليلات
               </h2>
@@ -98,11 +98,12 @@ const Home = () => {
               data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
+              className=""
             >
               <img
                 src={home}
                 alt=""
-                className="w-[300px] md:w-[500px] md:mx-36  "
+                className="w-[200px] md:w-[500px] md:mx-36  "
               />
             </div>
           </div>
@@ -112,7 +113,7 @@ const Home = () => {
             style={{ direction: "rtl" }}
             className="sect-about  flex-col flex xl:flex-row items-center justify-center xl:justify-between  gap-10 "
           >
-            <div className=" mt-28 flex flex-col text-white max-w-96 mx-44">
+            <div className=" mt-28 flex flex-col text-white max-w-96 mx-24">
               <h2 className="font-bold my-3 text-[20px]">معلومات عنا : </h2>
               <p className="font-serif text-[25px] md:w-[500px] w-[300px]   ">
                 نساعدك في تحليل البيانات وتحويلها الي تقارير مفيده ونوفر لك

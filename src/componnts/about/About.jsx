@@ -85,11 +85,11 @@ const About = () => {
           </div>
         </div>
         <div className="my-44">
-          <div className="flex justify-end text-[#673A8E] text-[45px] mx-8">
+          <div className="flex md:justify-center justify-end text-[#673A8E] text-[45px] mx-8">
             <h2>:قيمنا</h2>
           </div>
           <div className="card-about" style={{ direction: "rtl" }}>
-            <div className=" flex flex-col md:flex-row  flex-wrap ">
+            <div className=" flex flex-col md:flex-row  flex-wrap justify-center ">
               <div
                 class=" w-auto   md:w-[500px] gap-2 my-3  px-3 "
                 style={{ direction: "rtl" }}
@@ -99,6 +99,17 @@ const About = () => {
                   <p class="text-black text-lg  ">
                     تعزيز الأمانة والنزاهة والانفتاح بين الموظفين والشركاء
                     والعملاء.
+                  </p>
+                </div>
+              </div>
+              <div
+                class=" w-auto   md:w-[500px] gap-2 my-3  px-3 "
+                style={{ direction: "rtl" }}
+              >
+                <div class="group w-full rounded-lg bg-[#673ab7] p-5 transition relative duration-300 cursor-pointer hover:translate-y-[3px] hover:shadow-[0_-8px_0px_0px_#2196f3]">
+                  <p class="text-white text-2xl my-4">المرونة</p>
+                  <p class="text-black text-lg  ">
+                    إطلاق قدرات الموظفين للاستجابة السريعة بما يُسعد عملاءنا.
                   </p>
                 </div>
               </div>
@@ -124,17 +135,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <div
-                class=" w-auto   md:w-[500px] gap-2 my-3  px-3 "
-                style={{ direction: "rtl" }}
-              >
-                <div class="group w-full rounded-lg bg-[#673ab7] p-5 transition relative duration-300 cursor-pointer hover:translate-y-[3px] hover:shadow-[0_-8px_0px_0px_#2196f3]">
-                  <p class="text-white text-2xl my-4">المرونة</p>
-                  <p class="text-black text-lg  ">
-                    إطلاق قدرات الموظفين للاستجابة السريعة بما يُسعد عملاءنا.
-                  </p>
-                </div>
-              </div>
+
               <div
                 class=" w-auto   md:w-[500px] gap-2 my-3  px-3 "
                 style={{ direction: "rtl" }}
