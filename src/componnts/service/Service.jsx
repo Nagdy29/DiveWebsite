@@ -6,6 +6,7 @@ import NavTop from "../nav/NavTop";
 import NavBar from "../nav/NavBar";
 import { Link } from "react-router-dom";
 import { AiFillDatabase } from "react-icons/ai";
+import Footer from "../footer/Footer";
 
 const Service = () => {
   return (
@@ -119,6 +120,7 @@ const Service = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
