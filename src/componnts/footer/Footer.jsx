@@ -25,15 +25,11 @@ const Footer = () => {
           <nav className="text-yellow-50">
             <h6 className="footer-title">الشركه</h6>
             <Link className="text-[18px] links " to="/about">
-              عن دف
+              عن دايف
             </Link>
 
-            <Link to="/courses" className="text-[18px] links ">
-              الكورسات
-            </Link>
-
-            <Link to="/project" className="text-[18px] links  ">
-              المشاريع
+            <Link to="/service" className="text-[18px] links  ">
+              الخدمات
             </Link>
             <Link to="/contact" className="text-[18px] links ">
               اتصل بنا

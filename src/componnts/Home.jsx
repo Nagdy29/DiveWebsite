@@ -125,7 +125,11 @@ const Home = () => {
                 بتقديمها لعملائنا وفق احتياجاتهم الخاصة بهم وفق ما يحقق رغباتهم
                 ويحقق طموحاتهم.
               </p>
-              <button className="btn btn-primary my-4 ">اتصل بنا</button>
+              <Link to="/contact" className="w-full">
+                <button className="btn btn-primary my-4 w-full ">
+                  اتصل بنا
+                </button>
+              </Link>
             </div>
             <div
               data-aos="fade-right"
@@ -286,65 +290,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#070B28]">
-          <div className="flex flex-col justify-center items-center gap-2 text-white">
-            <h1 className="mt-12 font-bold text-[20px] ">المشاريع</h1>
-            <p className="my-1 font-mono text-[40px]">أعمالنا الناجحة</p>
-          </div>
-          <div className="">
-            <Carousel
-              swipeable={false}
-              draggable={false}
-              showDots={true}
-              responsive={responsive}
-              ssr={true} // means to render carousel on server-side.
-              infinite={true}
-              autoPlaySpeed={1000}
-              keyBoardControl={true}
-              customTransition="all .5"
-              transitionDuration={500}
-              containerClass="carousel-container"
-              removeArrowOnDeviceType={["tablet", "mobile"]}
-              dotListClass="custom-dot-list-style"
-              itemClass="carousel-item-padding-40-px"
-              className="w-full"
-            >
-              <div className="">
-                <div className=" my-7 flex justify-center ">
-                  <div class="relative  justify-center card flex w-[300px] flex-col  bg-clip-border text-gray-700 shadow-lg">
-                    <div>
-                      <img
-                        src={pr1}
-                        alt=""
-                        className="w-full flex justify-center items-center rounded-sm "
-                      />
-                    </div>
-                    <div class="p-6 text-white ">
-                      <h5 class="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                        <button class="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-purple-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
-                          تحليل البيانات
-                        </button>
-                      </h5>
-                      <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nunc felis ligula.
-                      </p>
-                    </div>
-                    <div className="overlay">
-                      <button className="btn-pr">
-                        <Link to="/projectDetails">
-                          {" "}
-                          <FaEye className="" />
-                        </Link>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Carousel>
-            ;
-          </div>
-        </div>
+
         <div className=" bg-[#070B28] flex justify-center  py-5 ">
           <div className="flex justify-center items-center flex-col">
             <h2 className="text-white text-[40px]">إحصائيات الشركة</h2>

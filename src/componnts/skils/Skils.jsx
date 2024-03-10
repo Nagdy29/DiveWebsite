@@ -45,22 +45,25 @@ const Skils = () => {
         <div className="flex justify-center items-center mt-7">
           <h1 className="text-white text-[40px] mb-5">مهارتنا</h1>
         </div>
-        <div className="" style={{ direction: "rtl" }}>
+        <div className="">
           <div className="flex justify-center gap-2 pb-4 flex-wrap">
             <div class="cursor-pointer transition-all mx-6 duration-500 hover:translate-y-2 w-64 h-36 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 px-4">
               <div className="flex items-center gap-2">
                 <SiMicrosoftexcel size={35} />
 
-                <span class="font-bold text-[#0A0F36]">مايكروسوفت اكسل</span>
+                <span class="font-bold text-[20px] text-[#0A0F36]">
+                  {" "}
+                  Microsoft excel
+                </span>
               </div>
             </div>
             <div class="cursor-pointer transition-all mx-6 duration-500 hover:translate-y-2 w-64 h-36 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 px-4">
               <div className="flex items-center gap-2">
                 <SiPowerbi size={35} />
 
-                <span class="font-bold text-[#0A0F36]">
+                <span class="font-bold text-[20px] text-[#0A0F36]">
                   {" "}
-                  مايكروسوفت باور بي
+                  Microsoft power bi
                 </span>
               </div>
             </div>
@@ -68,9 +71,9 @@ const Skils = () => {
               <div className="flex items-center gap-2">
                 <SiMysql size={35} />
 
-                <span class="font-bold text-[#0A0F36]">
+                <span class="font-bold text-[20px] text-[#0A0F36]">
                   {" "}
-                  خادم مايكروسوفت SQL
+                  Microsoft sql server
                 </span>
               </div>
             </div>
@@ -78,16 +81,19 @@ const Skils = () => {
               <div className="flex items-center gap-2">
                 <SiPython size={35} />
 
-                <span class="font-bold text-[#0A0F36]"> بايثون </span>
+                <span class="font-bold text-[20px] text-[#0A0F36]">
+                  {" "}
+                  python
+                </span>
               </div>
             </div>
             <div class="cursor-pointer transition-all mx-6 duration-500 hover:translate-y-2 w-64 h-36 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 px-4">
               <div className="flex items-center gap-2">
                 <TbBrandPython size={35} />
 
-                <span class="font-bold text-[#0A0F36]">
+                <span class="font-bold text-[20px] text-[#0A0F36]">
                   {" "}
-                  بايثون لتحليل البيانات{" "}
+                  python for data analysis
                 </span>
               </div>
             </div>
@@ -95,23 +101,29 @@ const Skils = () => {
               <div className="flex items-center gap-2">
                 <GrVirtualMachine size={35} />
 
-                <span class="font-bold text-[#0A0F36]"> التعلم الالي </span>
+                <span class="font-bold text-[20px] text-[#0A0F36]">
+                  {" "}
+                  machine learning
+                </span>
               </div>
             </div>
             <div class="cursor-pointer transition-all mx-6 duration-500 hover:translate-y-2 w-64 h-36 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 px-4">
               <div className="flex items-center gap-2">
                 <TbBrandOpenai size={35} />
 
-                <span class="font-bold text-[#0A0F36]"> نموذج دوبلمنيت </span>
+                <span class="font-bold text-[20px] text-[#0A0F36]">
+                  {" "}
+                  Model Doplmenyt{" "}
+                </span>
               </div>
             </div>
             <div class="cursor-pointer transition-all mx-6 duration-500 hover:translate-y-2 w-64 h-36 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 px-4">
               <div className="flex items-center gap-2">
                 <FaDatabase size={35} />
 
-                <span class="font-bold text-[#0A0F36]">
+                <span class="font-bold text-[20px] text-[#0A0F36]">
                   {" "}
-                  عرض مرئي للمعلومات{" "}
+                  data visualization{" "}
                 </span>
               </div>
             </div>
@@ -119,14 +131,20 @@ const Skils = () => {
               <div className="flex items-center gap-2">
                 <FcStatistics size={35} />
 
-                <span class="font-bold text-[#0A0F36]"> إحصائيات متقدمة </span>
+                <span class="font-bold text-[20px] text-[#0A0F36]">
+                  {" "}
+                  Advanced statistics
+                </span>
               </div>
             </div>
             <div class="cursor-pointer transition-all mx-6 duration-500 hover:translate-y-2 w-64 h-36 bg-neutral-50 rounded-lg shadow-xl flex flex-row items-center justify-evenly gap-4 px-4">
               <div className="flex items-center gap-2">
                 <GiSatelliteCommunication size={35} />
 
-                <span class="font-bold text-[#0A0F36]"> تواصل </span>
+                <span class="font-bold text-[20px] text-[#0A0F36]">
+                  {" "}
+                  communication{" "}
+                </span>
               </div>
             </div>
           </div>

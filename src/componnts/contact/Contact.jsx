@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import contact from "../../images/contact.png";
 import top from "../../images/banner-1.jpg";
 import { FaLongArrowAltLeft } from "react-icons/fa";
@@ -8,6 +9,17 @@ import NavBar from "../nav/NavBar";
 import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_rn6ir1q", "template_y9xgiij", form.current, {
+      publicKey: "via8yvFu96XeNSarF",
+    });
+    e.target.reset();
+  };
+
   return (
     <>
       <div className="min-h-screen bg-[#0A0F36]">
@@ -41,37 +53,36 @@ const Contact = () => {
               <div class="w-full max-w-md rounded-lg shadow-md p-6">
                 <h2 class="text-2xl font-bold text-gray-200 mb-4">اتصل بنا </h2>
 
-                <form class="flex flex-wrap w-full   ">
+                <form
+                  class="flex flex-wrap w-full   "
+                  ref={form}
+                  onSubmit={sendEmail}
+                >
                   <input
                     type="text"
                     class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] mr-[2%]"
                     placeholder="Full Name"
+                    name="name"
                   />
                   <input
                     type="email"
                     class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] ml-[2%]"
                     placeholder="Email"
+                    name="email"
                   />
                   <input
                     type="number"
                     class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] mr-[2%]"
                     placeholder="Phone Number"
+                    name="phone"
                   />
                   <input
                     type="text"
                     class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] ml-[2%]"
                     placeholder="Company Name"
+                    name="company"
                   />
-                  <input
-                    type="text"
-                    class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] mr-[2%]"
-                    placeholder="Job Title"
-                  />
-                  <input
-                    type="date"
-                    class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] ml-[2%]"
-                    placeholder="Date of Birth"
-                  />
+
                   <textarea
                     name="message"
                     class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-auto md:mb-auto md:w-full md:h-auto md:min-h-[100px] md:max-h-[100px] md:flex-grow md:flex-shrink md:flex-auto focus:bg-gray-md:focus:outline-none:focus:ring-blue-md:focus:border-transparent transition ease-in-out duration-fastest"

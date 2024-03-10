@@ -38,15 +38,11 @@ const NavBar = () => {
                 <li>
                   <div className=" flex gap-6 links-nav flex-col">
                     <Link className="text-[18px] links " to="/about">
-                      عن دف
+                      عن دايف
                     </Link>
 
-                    <Link to="/courses" className="text-[18px] links ">
-                      الكورسات
-                    </Link>
-
-                    <Link to="/project" className="text-[18px] links  ">
-                      المشاريع
+                    <Link to="/service" className="text-[18px] links  ">
+                      الخدمات
                     </Link>
                     <Link to="/contact" className="text-[18px] links ">
                       اتصل بنا
@@ -73,15 +69,11 @@ const NavBar = () => {
           <div className="navbar-center hidden lg:flex">
             <div className=" flex gap-6 links-nav">
               <Link className="text-[18px] links " to="/about">
-                عن دف
+                عن دايف
               </Link>
 
-              <Link to="/courses" className="text-[18px] links ">
-                الكورسات
-              </Link>
-
-              <Link to="/project" className="text-[18px] links  ">
-                المشاريع
+              <Link to="/service" className="text-[18px] links  ">
+                الخدمات
               </Link>
               <Link to="/contact" className="text-[18px] links ">
                 اتصل بنا
