@@ -15,6 +15,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { GiHistogram } from "react-icons/gi";
 import CountUp from "react-countup";
 import Footer from "./footer/Footer";
+import { FaWhatsapp } from "react-icons/fa";
 
 const responsive = {
   superLargeDesktop: {
@@ -48,7 +49,7 @@ const Home = () => {
 
   return (
     <>
-      <div>
+      <div className="relative">
         <div className="Home-page min-h-screen">
           <div>
             <NavTop />
@@ -323,6 +324,17 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className=" fixed z-50 lg:right-4 md:bottom-8  left-5 bottom-28  ">
+          <a
+            href="https://wa.me/01066070489"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=""
+          >
+            <FaWhatsapp size={45} className="text-green-600 img-about" />
+          </a>
+        </div>
+
         <Footer />
       </div>
     </>

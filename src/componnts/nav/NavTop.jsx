@@ -10,7 +10,7 @@ const NavTop = () => {
   return (
     <>
       <div>
-        <div className="navbar sm:gap-5    flex  flex-col justify-between md:flex-row ">
+        <div className="navbar sm:gap-5     flex  flex-col justify-between md:flex-row ">
           <div className="mx-9 flex items-center  gap-4">
             <div className="flex items-center gap-3">
               <BiLogoGmail className="text-[#4C42C5] " size={25} />
@@ -20,20 +20,33 @@ const NavTop = () => {
             </div>
             <div className="flex items-center gap-3">
               <BsFillTelephoneFill className="text-[#4C42C5] " size={25} />
-              <p className="text-white">01281022796</p>
+              <p className="text-white">01066070489</p>
             </div>
           </div>
           <div className="flex-none flex items-center mx-11 gap-3">
             <div className="flex items-center gap-3 cursor-pointer icons-top">
-              <a href="" className="flex items-center justify-center">
+              
+              <a
+                href="https://www.facebook.com/share/v/yE6yPBYzY4vkvCkH/?mibextid=oFDknk"
+                target="_blank"
+                className="flex items-center justify-center"
+              >
                 {" "}
                 <FaFacebookF />
               </a>
-              <a href="" className="flex items-center justify-center">
+              <a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7171537262436978689/"
+                target="_blank"
+                className="flex items-center justify-center"
+              >
                 {" "}
                 <IoLogoLinkedin />
               </a>
-              <a href="" className="flex items-center justify-center">
+              <a
+                href="https://www.youtube.com/@ali-z-analyst"
+                target="_blank"
+                className="flex items-center justify-center"
+              >
                 {" "}
                 <FaYoutube />
               </a>

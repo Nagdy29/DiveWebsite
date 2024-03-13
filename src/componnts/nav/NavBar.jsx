@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "../../images/ogo.jfif";
 import { Link } from "react-router-dom";
+
+import { BsFillClipboardDataFill } from "react-icons/bs";
+
 const NavBar = () => {
   return (
     <>
@@ -54,15 +57,20 @@ const NavBar = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <Link to="/">
-                <img
-                  src={logo}
-                  alt=""
-                  width={120}
-                  height={120}
-                  className="mx-11"
-                />
+            <div className="mx-8 ">
+              <Link to="/" className="flex items-center justify-center gap-3">
+                <div className="flex flex-col items-center">
+                  <h2 className="text-[30px] font-bold text-[#4C42C5]">
+                    Dive{" "}
+                  </h2>
+                  <p>For Analytics Services</p>
+                </div>
+                <div>
+                  <BsFillClipboardDataFill
+                    size={35}
+                    className="text-[#4C42C5]"
+                  />
+                </div>
               </Link>
             </div>
           </div>
