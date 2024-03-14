@@ -57,7 +57,7 @@ const NavBar = () => {
                 </li>
               </ul>
             </div>
-            <div className="mx-8 ">
+            <div className="mx-8 flex md:justify-start justify-center  ">
               <Link to="/" className="flex items-center justify-center gap-3">
                 <div className="flex flex-col items-center">
                   <h2 className="text-[30px] font-bold text-[#4C42C5]">

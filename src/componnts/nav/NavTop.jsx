@@ -14,8 +14,11 @@ const NavTop = () => {
           <div className="mx-9 flex items-center  gap-4">
             <div className="flex items-center gap-3">
               <BiLogoGmail className="text-[#4C42C5] " size={25} />
-              <Link className="text-white" to="rabeeali500@gmail.com">
-                rabeeali500@gmail.com
+              <Link
+                className="text-white"
+                to="https://mail.google.com/mail/u/1/#inbox"
+              >
+                websitedive@gmail.com
               </Link>
             </div>
             <div className="flex items-center gap-3">
@@ -23,9 +26,8 @@ const NavTop = () => {
               <p className="text-white">01066070489</p>
             </div>
           </div>
-          <div className="flex-none flex items-center mx-11 gap-3">
+          <div className="flex-none flex items-center md:my-0 my-4 mx-11 gap-3">
             <div className="flex items-center gap-3 cursor-pointer icons-top">
-              
               <a
                 href="https://www.facebook.com/share/v/yE6yPBYzY4vkvCkH/?mibextid=oFDknk"
                 target="_blank"
