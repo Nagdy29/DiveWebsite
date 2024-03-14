@@ -326,7 +326,7 @@ const Home = () => {
         </div>
         <div className=" fixed z-50 lg:right-4 md:bottom-8  left-5 bottom-28  ">
           <a
-            href="https://wa.me/01066070489"
+            href="https://wa.me/+201066070489"
             target="_blank"
             rel="noopener noreferrer"
             className=""
