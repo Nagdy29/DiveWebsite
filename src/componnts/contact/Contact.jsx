@@ -14,8 +14,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_rn6ir1q", "template_y9xgiij", form.current, {
-      publicKey: "via8yvFu96XeNSarF",
+    emailjs.sendForm("service_acb6lqc", "template_y9xgiij", form.current, {
+      publicKey: "Go9TfCg3KIlxxny6_",
     });
     e.target.reset();
   };
@@ -75,12 +75,6 @@ const Contact = () => {
                     class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] mr-[2%]"
                     placeholder="Phone Number"
                     name="phone"
-                  />
-                  <input
-                    type="text"
-                    class="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150 w-full md:w-[48%] ml-[2%]"
-                    placeholder="Company Name"
-                    name="company"
                   />
 
                   <textarea
