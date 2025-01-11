@@ -53,6 +53,9 @@ const NavBar = () => {
                     <Link to="/skils" className="text-[18px] links ">
                       مهارتنا
                     </Link>
+                    <Link to="/works" className="text-[18px] links ">
+                      أعمالنا
+                    </Link>
                   </div>
                 </li>
               </ul>
@@ -88,6 +91,9 @@ const NavBar = () => {
               </Link>
               <Link to="/skils" className="text-[18px] links ">
                 مهارتنا
+              </Link>
+              <Link to="/works" className="text-[18px] links ">
+                أعمالنا
               </Link>
             </div>
           </div>
