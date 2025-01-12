@@ -5,6 +5,12 @@ import { FaLongArrowAltLeft } from "react-icons/fa";
 import NavTop from "../nav/NavTop";
 import NavBar from "../nav/NavBar";
 import top from "../../images/banner-1.jpg";
+import w1 from "../../images/project/w1.jpg";
+import w12 from "../../images/project/12.jpg";
+import w13 from "../../images/project/13.jpg";
+import w2 from "../../images/project/w2.jpg";
+import w21 from "../../images/project/21.jpg";
+import w23 from "../../images/project/23.jpg";
 
 export const Work = () => {
   return (
@@ -41,15 +47,52 @@ export const Work = () => {
               </h2>
             </div>
             {/* work */}
-            <div className=" mx-5 ">
+            <div className=" mx-16 my-12 ">
               <div className="carousel w-full rounded-2xl my-6 ">
                 <div id="slide1" className="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-                    className="w-full"
-                  />
+                  <img src={w1} className="w-full" />
+                  <div className="absolute z-40 bottom-5    left-[50%]">
+                    <button
+                      className="btn font-bold"
+                      onClick={() =>
+                        document.getElementById("my_modal_3").showModal()
+                      }
+                    >
+                      المشروع كامل
+                    </button>
+                    <dialog id="my_modal_3" className="modal">
+                      <div className="modal-box">
+                        <form method="dialog">
+                          <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                            ✕
+                          </button>
+                        </form>
+                        <h3 className="font-bold text-lg text-slate-800">
+                          المشروع الاول !
+                        </h3>
+                        <div
+                          id="slide1"
+                          className="carousel-item relative w-full"
+                        >
+                          <img src={w1} className="w-full" />
+                        </div>
+                        <div
+                          id="slide"
+                          className="carousel-item relative w-full"
+                        >
+                          <img src={w12} className="w-full" />
+                        </div>
+                        <div
+                          id="slide"
+                          className="carousel-item relative w-full"
+                        >
+                          <img src={w13} className="w-full" />
+                        </div>
+                      </div>
+                    </dialog>
+                  </div>
                   <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide4" className="btn btn-circle">
+                    <a href="#slide2" className="btn btn-circle">
                       ❮
                     </a>
                     <a href="#slide2" className="btn btn-circle">
@@ -58,40 +101,48 @@ export const Work = () => {
                   </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                    className="w-full"
-                  />
+                  <img src={w2} className="w-full" />
+                  <div className="absolute z-40 bottom-6 left-[50%]">
+                    <label htmlFor="my_modal_7" className="btn">
+                      المشروع كامل
+                    </label>
+
+                    <input
+                      type="checkbox"
+                      id="my_modal_7"
+                      className="modal-toggle"
+                    />
+                    <div className="modal" role="dialog">
+                      <div className="modal-box">
+                        <h3 className="text-lg font-bold text-slate-700">
+                          المشروع الثاني !
+                        </h3>
+                        <div
+                          id="slide1"
+                          className="carousel-item relative w-full"
+                        >
+                          <img src={w2} className="w-full" />
+                        </div>
+                        <div
+                          id="slide1"
+                          className="carousel-item relative w-full"
+                        >
+                          <img src={w21} className="w-full" />
+                        </div>
+                        <div
+                          id="slide1"
+                          className="carousel-item relative w-full"
+                        >
+                          <img src={w23} className="w-full" />
+                        </div>
+                      </div>
+                      <label className="modal-backdrop" htmlFor="my_modal_7">
+                        Close
+                      </label>
+                    </div>
+                  </div>
                   <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide1" className="btn btn-circle">
-                      ❮
-                    </a>
-                    <a href="#slide3" className="btn btn-circle">
-                      ❯
-                    </a>
-                  </div>
-                </div>
-                <div id="slide3" className="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                    className="w-full"
-                  />
-                  <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide2" className="btn btn-circle">
-                      ❮
-                    </a>
-                    <a href="#slide4" className="btn btn-circle">
-                      ❯
-                    </a>
-                  </div>
-                </div>
-                <div id="slide4" className="carousel-item relative w-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                    className="w-full"
-                  />
-                  <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide3" className="btn btn-circle">
                       ❮
                     </a>
                     <a href="#slide1" className="btn btn-circle">
@@ -106,13 +157,10 @@ export const Work = () => {
           <div>
             <section class="text-black ">
               <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-                <h3 class="mb-6 text-3xl font-bold text-white">Testimonials</h3>
-                <p class="mb-6 pb-2 md:mb-12 md:pb-0  text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Fugit, error amet numquam iure provident voluptate esse quasi,
-                  veritatis totam voluptas nostrum quisquam eum porro a pariatur
-                  veniam.
-                </p>
+                <h3 class="mb-6 text-3xl font-bold text-white">
+                  {" "}
+                  : آراء العمال{" "}
+                </h3>
               </div>
 
               <div class="grid gap-6 text-center md:grid-cols-3 mx-4">

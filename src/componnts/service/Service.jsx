@@ -18,14 +18,14 @@ const Service = () => {
         </div>
         <div className="mt-5 mx-4 flex justify-center relative">
           <img src={top} alt="" className=" top-image   " />
-          <h1 className="absolute top-28 justify-center items-center text-white text-[45px]  ">
-            الخدمات
-          </h1>
+          <Link to="/works">
+            <h1 className="absolute top-28 justify-center items-center text-white text-[45px]  ">
+              الخدمات
+            </h1>
+          </Link>
           <div className="absolute text-con flex  text-white gap-4 justify-center items-center mt-3">
-            <Link>
-              {" "}
-              <h2> الخدمات </h2>
-            </Link>{" "}
+            {" "}
+            <h2> الخدمات </h2>
             <FaLongArrowAltLeft />
             <Link to="/">
               {" "}
@@ -56,19 +56,21 @@ const Service = () => {
                 اتخاذ القرارات المستنيرة.
               </p>{" "}
             </div>
-            <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center  h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
-              <div>
-                <AiFillDatabase size={40} />
+            <Link to="/works">
+              <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center  h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
+                <div>
+                  <AiFillDatabase size={40} />
+                </div>
+                <p class="font-bold text-3xl group-hover:text-white text-black/80">
+                  تحليلات البيانات
+                </p>
+                <p class="text-gray-400 text-sm">
+                  أطلق العنان للإمكانات الكاملة لبيانات الشركة من خلال التصميم
+                  الشامل وتطوير لوحات المعلومات والتقارير وبوابات المعلومات
+                  التحليلية وحلول الخدمة الذاتية.
+                </p>{" "}
               </div>
-              <p class="font-bold text-3xl group-hover:text-white text-black/80">
-                تحليلات البيانات
-              </p>
-              <p class="text-gray-400 text-sm">
-                أطلق العنان للإمكانات الكاملة لبيانات الشركة من خلال التصميم
-                الشامل وتطوير لوحات المعلومات والتقارير وبوابات المعلومات
-                التحليلية وحلول الخدمة الذاتية.
-              </p>{" "}
-            </div>
+            </Link>
             <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col items-star gap-3 transition-all duration-300 group hover:bg-[#202127]">
               <div>
                 <AiFillDatabase size={40} />
