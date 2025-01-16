@@ -6,10 +6,7 @@ import about from "../images/about.png";
 import { FaGooglePlay } from "react-icons/fa";
 import video from "../images/video_2024-03-05_22-38-20.mp4";
 import { AiFillDatabase } from "react-icons/ai";
-import { FaEye } from "react-icons/fa6";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import pr1 from "../images/port-3.jpg";
 import { Link } from "react-router-dom";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { GiHistogram } from "react-icons/gi";
@@ -115,7 +112,9 @@ const Home = () => {
             className="sect-about  flex-col flex xl:flex-row items-center justify-center xl:justify-between  gap-10 "
           >
             <div className=" mt-28 flex flex-col text-white max-w-96 mx-24">
-              <h2 className="font-bold my-3 text-[20px]">معلومات عنا : </h2>
+              <h2 className="font-bold my-3 text-[15px] lg:text-[40px] text-blue-600">
+                معلومات عنا :{" "}
+              </h2>
               <p className="font-serif text-[25px] md:w-[500px] w-[300px]   ">
                 نساعدك في تحليل البيانات وتحويلها الي تقارير مفيده ونوفر لك
                 مجموعه من الكورسات المميزه ف مجال تحليل البيانات ونحن نقدم
@@ -167,19 +166,21 @@ const Home = () => {
                   لتسهيل اتخاذ القرارات المستنيرة.
                 </p>{" "}
               </div>
-              <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center  h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
-                <div>
-                  <AiFillDatabase size={40} />
+              <Link to="/works">
+                <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center  h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col  gap-3 transition-all duration-300 group hover:bg-[#202127]">
+                  <div>
+                    <AiFillDatabase size={40} />
+                  </div>
+                  <p class="font-bold text-3xl group-hover:text-white text-black/80">
+                    تحليلات البيانات
+                  </p>
+                  <p class="text-gray-400 text-sm">
+                    أطلق العنان للإمكانات الكاملة لبيانات الشركة من خلال التصميم
+                    الشامل وتطوير لوحات المعلومات والتقارير وبوابات المعلومات
+                    التحليلية وحلول الخدمة الذاتية.
+                  </p>{" "}
                 </div>
-                <p class="font-bold text-3xl group-hover:text-white text-black/80">
-                  تحليلات البيانات
-                </p>
-                <p class="text-gray-400 text-sm">
-                  أطلق العنان للإمكانات الكاملة لبيانات الشركة من خلال التصميم
-                  الشامل وتطوير لوحات المعلومات والتقارير وبوابات المعلومات
-                  التحليلية وحلول الخدمة الذاتية.
-                </p>{" "}
-              </div>
+              </Link>
               <div class="service-card mx-3 my-4 w-[300px] md:w-[400px] flex justify-center items-center h-[250px] shadow-xl cursor-pointer snap-start shrink-0 py-8 px-6 bg-white  flex-col items-star gap-3 transition-all duration-300 group hover:bg-[#202127]">
                 <div>
                   <AiFillDatabase size={40} />

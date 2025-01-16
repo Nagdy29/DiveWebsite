@@ -12,6 +12,7 @@ import Yussif from "../../images/team/Yussif Azzam.jpg";
 import Ahmed from "../../images/team/Ahmed Saleh.jpg";
 import Mohammed from "../../images/team/Mohammed Hedaya.jpg";
 import n from "../../images/team/na.jpg";
+import W from "../../images/team/photo_2025-01-16_17-59-34.jpg";
 import { FaLinkedin } from "react-icons/fa";
 
 const About = () => {
@@ -407,10 +408,6 @@ const About = () => {
                     class="rounded-none lg:rounded-full shadow-2xl hidden lg:block"
                   />
                 </div>
-
-                <div class="absolute top-0 right-0 h-12 w-18 p-4">
-                  <button class="js-change-theme focus:outline-none">🌙</button>
-                </div>
               </div>
               <div class="max-w-4xl my-12 md:my-2 flex items-center  flex-wrap mx-auto">
                 <div
@@ -486,6 +483,82 @@ const About = () => {
                 <div class="w-full lg:w-3/12">
                   <img
                     src={n}
+                    class="rounded-none lg:rounded-full shadow-2xl hidden lg:block"
+                  />
+                </div>
+              </div>
+              <div class="max-w-4xl my-12 md:my-2 flex items-center  flex-wrap mx-auto">
+                <div
+                  id="profile"
+                  class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0"
+                >
+                  <div class="p-4 md:p-12 text-center lg:text-left">
+                    <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"></div>
+
+                    <h1 class="text-3xl font-bold pt-8 lg:pt-0">WAEL OWIS</h1>
+                    <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
+                    <p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
+                      <svg
+                        class="h-4 fill-current text-green-700 pr-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" />
+                      </svg>{" "}
+                      Data Analyst
+                    </p>
+                    <p class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
+                      <svg
+                        class="h-4 fill-current text-green-700 pr-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm7.75-8a8.01 8.01 0 0 0 0-4h-3.82a28.81 28.81 0 0 1 0 4h3.82zm-.82 2h-3.22a14.44 14.44 0 0 1-.95 3.51A8.03 8.03 0 0 0 16.93 14zm-8.85-2h3.84a24.61 24.61 0 0 0 0-4H8.08a24.61 24.61 0 0 0 0 4zm.25 2c.41 2.4 1.13 4 1.67 4s1.26-1.6 1.67-4H8.33zm-6.08-2h3.82a28.81 28.81 0 0 1 0-4H2.25a8.01 8.01 0 0 0 0 4zm.82 2a8.03 8.03 0 0 0 4.17 3.51c-.42-.96-.74-2.16-.95-3.51H3.07zm13.86-8a8.03 8.03 0 0 0-4.17-3.51c.42.96.74 2.16.95 3.51h3.22zm-8.6 0h3.34c-.41-2.4-1.13-4-1.67-4S8.74 3.6 8.33 6zM3.07 6h3.22c.2-1.35.53-2.55.95-3.51A8.03 8.03 0 0 0 3.07 6z" />
+                      </svg>{" "}
+                      Your Location - Beni Suef
+                    </p>
+
+                    <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/waelmowis/"
+                      >
+                        <button
+                          href="#"
+                          class="flex overflow-hidden  items-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-black text-white shadow hover:bg-black/90 h-9 px-4 py-2 max-w-52 whitespace-pre md:flex group relative w-full justify-center gap-4 rounded-md transition-all duration-300 ease-out hover:ring-2 hover:ring-black hover:ring-offset-2"
+                        >
+                          <span class="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-40"></span>
+                          <div class="flex items-center gap-1 justify-center">
+                            <FaLinkedin size={15} className="text-blue-600" />
+                            <span class="ml-1 text-white">
+                              Star on Linkedin
+                            </span>
+                          </div>
+                          <div class="ml-2 flex items-center gap-1 text-sm md:flex">
+                            <svg
+                              class="w-4 h-4 text-gray-500 transition-all duration-300 group-hover:text-yellow-300"
+                              data-slot="icon"
+                              aria-hidden="true"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                fill-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </div>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="w-full lg:w-3/12">
+                  <img
+                    src={W}
                     class="rounded-none lg:rounded-full shadow-2xl hidden lg:block"
                   />
                 </div>

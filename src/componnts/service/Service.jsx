@@ -18,11 +18,7 @@ const Service = () => {
         </div>
         <div className="mt-5 mx-4 flex justify-center relative">
           <img src={top} alt="" className=" top-image   " />
-          <Link to="/works">
-            <h1 className="absolute top-28 justify-center items-center text-white text-[45px]  ">
-              الخدمات
-            </h1>
-          </Link>
+      
           <div className="absolute text-con flex  text-white gap-4 justify-center items-center mt-3">
             {" "}
             <h2> الخدمات </h2>
